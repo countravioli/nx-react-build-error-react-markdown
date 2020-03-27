@@ -1,0 +1,22 @@
+{
+  "npmScope": "foobar",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "markdown": {
+      "tags": []
+    },
+    "markdown-e2e": {
+      "tags": [],
+      "implicitDependencies": ["markdown"]
+    }
+  }
+}
