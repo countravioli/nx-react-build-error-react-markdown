@@ -17,6 +17,9 @@
     "markdown-e2e": {
       "tags": [],
       "implicitDependencies": ["markdown"]
+    },
+    "core": {
+      "tags": []
     }
   }
 }

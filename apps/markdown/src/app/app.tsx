@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ReactMarkdown from 'react-markdown';
 import styled from '@emotion/styled';
 
 import { ReactComponent as Logo } from './logo.svg';
@@ -150,6 +150,7 @@ export const App = () => {
         <Logo width="75" height="75" />
         <h1>Welcome to markdown!</h1>
       </header>
+	<ReactMarkdown source={'# Hi Mom  Apple Jacks'} />
       <main>
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
